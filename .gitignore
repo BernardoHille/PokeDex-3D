@@ -1,0 +1,22 @@
+node_modules/
+dist/
+coverage/
+.cache/
+.vite/
+
+*.log
+vite-dev*.log
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+
+verification/
+
+# Local/export duplicates. The app uses public/models/pokedex_pronta.glb.
+/pokedex_pronta.glb
+/pokedex.blend1
+/Assets/*.zip
